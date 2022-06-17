@@ -5,6 +5,8 @@
     background: #81b4aa;
     border-radius: 5px;
     overflow: hidden;
+    animation: progres 4s infinite linear;
+ 
 }
 .progressFill{
     width: 25%;
@@ -19,3 +21,16 @@
     font: bold 14px 'Quicksand', sand-serif;
     color: white;
 }
+@keyframes progres{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+
+};
+
